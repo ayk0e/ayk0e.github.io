@@ -1,3 +1,17 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+}
+
+* {
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+}
+  
+div {
+    font-family: myFirstFont;
+}
+
 #body {
     background-color: rgb(33, 33, 33);
     overflow: hidden;
@@ -5,12 +19,13 @@
     justify-content: center;
     align-items: center;
     gap: 100px;
+    font-family: "ocr a", Times, serif;
 }
 
 #point {
     width: 10px;
     height: 10px;
-    background-color: rgb(255, 68, 68);
+    background-color: rgb(84, 7, 101);
     border-radius: 4px;
     position: absolute;
     pointer-events: none;
@@ -60,8 +75,8 @@
 }
 
 .painting:hover .cover {
-    opacity: 1;
-    background-color: white;
+    opacity: 0.7;
+    background-color: rgb(33, 33, 33);
 }
 
 #last {
@@ -77,16 +92,17 @@
 }
 
 .paragraph {
-    color: rgb(33, 33, 33);
+    color: rgb(244, 244, 255);
+    font-size: 20px;
 }
 
 .link {
-    color: rgb(255, 68, 68);
-    background-color: rgb(33, 33, 33);
+    color: rgb(162, 32, 191);
+    font-size: 20px;
     text-decoration: none;
 }
 
 .header {
-    color: rgb(33, 33, 33);
-    background-color: rgb(255, 68, 68);
+    color: rgb(244, 244, 255);
+    background-color: rgb(84, 7, 101);
 }

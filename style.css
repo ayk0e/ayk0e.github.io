@@ -1,8 +1,9 @@
 * {
     font-family: "Asar", serif;
     font-optical-sizing: auto;
+    cursor: none;
 }
-  
+
 div {
     font-family: myFirstFont;
 }
@@ -92,12 +93,11 @@ div {
 }
 
 .link {
-    color: rgb(255, 32, 32);
+    color: rgb(55, 45, 255);
     font-size: 20px;
     text-decoration: none;
 }
 
 .header {
     color: rgb(244, 244, 255);
-    background-color: rgb(255, 32, 32);
 }

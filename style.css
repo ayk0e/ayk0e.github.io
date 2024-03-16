@@ -1,10 +1,5 @@
-@font-face {
-    font-family: myFirstFont;
-    src: url(sansation_light.woff);
-}
-
 * {
-    font-family: "Bodoni Moda", serif;
+    font-family: "Asar", serif;
     font-optical-sizing: auto;
 }
   
@@ -25,7 +20,7 @@ div {
 #point {
     width: 10px;
     height: 10px;
-    background-color: rgb(84, 7, 101);
+    background-color: rgb(255, 32, 32);
     border-radius: 4px;
     position: absolute;
     pointer-events: none;
@@ -97,12 +92,12 @@ div {
 }
 
 .link {
-    color: rgb(162, 32, 191);
+    color: rgb(255, 32, 32);
     font-size: 20px;
     text-decoration: none;
 }
 
 .header {
     color: rgb(244, 244, 255);
-    background-color: rgb(84, 7, 101);
+    background-color: rgb(255, 32, 32);
 }

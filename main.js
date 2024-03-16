@@ -2,6 +2,7 @@ const all = document.querySelector("*");
 const body = document.querySelector("body");
 const point = document.getElementById("point");
 const center = document.getElementById("nexus");
+const links = document.getElementsByClassName("link");
 
 const width = window.innerWidth || document.documentElement.clientWidth;
 const height = window.innerHeight || document.documentElement.clientHeight;
@@ -9,7 +10,7 @@ const height = window.innerHeight || document.documentElement.clientHeight;
 const ox = width / 2;
 const oy = height / 2;
 
-const speed = 7;
+const speed = 2;
 const min_distance = 4;
 const offset_x = 0;
 const offset_y = 0;
@@ -24,9 +25,16 @@ let elapsed = 0;
 let text = "";
 let doom = false;
 
+const on_link_size = "20px";
+
 document.addEventListener("DOMContentLoaded", startPage);
 document.addEventListener("mousemove", mouseMove);
 document.addEventListener("click", click);
+
+for (let i = 0; i < links.length; i++) {
+    links[i].addEventListener("mouseover", onLink);
+    links[i].addEventListener("mouseout", outsideLink);
+}
 
 document.addEventListener("keydown", (e) => {
     const key = e.key;
@@ -100,6 +108,14 @@ function doomsday() {
     if(!doom) all.style.filter = "invert(100%)";
     else all.style.filter = "invert(0%)";
     doom = !doom;
+}
+
+function onLink() {
+    point.style.backgroundColor = "rgb(255, 0, 212)";
+}
+
+function outsideLink() {
+    point.style.backgroundColor = "rgb(255, 32, 32)";
 }
 
 /*function newShipPosition(cx, cy) {

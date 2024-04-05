@@ -1,0 +1,70 @@
+#thumbnail {
+    background-image: url("thumbnail.jpg");
+}
+
+#c1 {
+    width: 95%;
+    height: 200px;
+    background-color: rgb(93, 93, 93);
+    top: 100px;
+    position: relative;
+    border-radius: 10px;
+}
+
+#h1 {
+    top: 60px;
+}
+
+#p1 {
+    top: 40px;
+}
+
+#img1 {
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right: 5px;
+}
+
+#con1 {
+    height: 300px;
+}
+
+#cb1 {
+    width: 1300px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#e1 {
+    width: 500px;
+    height: 150px;
+}
+
+#e2 {
+    width: 500px;
+    height: 150px;
+}
+
+#hw {
+    width: 400px;
+}
+
+#text1 {
+    color: rgb(255, 7, 7);
+}
+
+#con2 {
+    background-color: rgb(61, 111, 204);
+    width: 600px;
+    height: 350px;
+    position: relative;
+    border-radius: 6px;
+}
+
+#con2:hover {
+    background-color: cornflowerblue;
+    box-shadow: 0px 0px 15px 5px cornflowerblue;
+}

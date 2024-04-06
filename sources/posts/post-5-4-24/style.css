@@ -1,5 +1,5 @@
 #thumbnail {
-    background-image: url("thumbnail.jpg");
+    background-image: url("https://pub-static.fotor.com/assets/bg/247d99f6-6217-4573-8ade-ce8043170fcd.jpg");
 }
 
 #c1 {
@@ -20,14 +20,24 @@
 }
 
 #img1 {
+    width: 200px;
+    height: 200px;
+    float: center;
+    margin-right: 5px;
+}
+
+#img2 {
     width: 300px;
     height: 300px;
-    float: left;
+    float: center;
     margin-right: 5px;
 }
 
 #con1 {
     height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #cb1 {
@@ -41,6 +51,8 @@
 #e1 {
     width: 500px;
     height: 150px;
+    top: 15px;
+    position: absolute;
 }
 
 #e2 {
@@ -50,21 +62,26 @@
 
 #hw {
     width: 400px;
+    position: absolute;
+    bottom: 0px;
 }
 
 #text1 {
-    color: rgb(255, 7, 7);
+    color: rgb(127, 22, 212);
 }
 
 #con2 {
-    background-color: rgb(61, 111, 204);
+    background-color: rgb(59, 29, 42);
     width: 600px;
     height: 350px;
     position: relative;
     border-radius: 6px;
 }
 
-#con2:hover {
-    background-color: cornflowerblue;
-    box-shadow: 0px 0px 15px 5px cornflowerblue;
+.brah {
+    width: 200px;
+}
+
+.brah2 {
+    width: 100px;
 }

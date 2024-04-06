@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: rgb(33, 33, 33);
+    background-color: rgb(39, 17, 27);
 }
 
 .thumbnail {
@@ -70,8 +70,12 @@ body {
     border-radius: 5px;
 }
 
-.center {
+.centerx {
     position: relative;
     left: 50%;
     transform: translate(-50%);
+}
+
+.line {
+    border-color: rgb(109, 50, 76);
 }
